@@ -4,10 +4,7 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import * as SecureStore from './SecureStore';
 
-const httpLink = new HttpLink({ uri: 'https://apollo-ollo-server.appspot.com' });
-
-// local url: http://localhost:4000/
-// public url: https://apollo-ollo-server.appspot.com
+const httpLink = new HttpLink({ uri: '#apolloserverurl' });
 
 const authLink = setContext(async (req, { headers }) => {
   const token = await SecureStore.getUserToken();
