@@ -1,0 +1,47 @@
+{
+  "name": "ollo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.0",
+    "apollo-client": "^2.6.0",
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-http": "^1.5.14",
+    "expo-secure-store": "^4.0.0",
+    "graphql": "^14.3.0",
+    "graphql-tag": "^2.10.1",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-apollo": "^2.5.5",
+    "react-native": "0.59.8",
+    "react-native-actionsheet": "^2.4.2",
+    "react-native-draggable-grid": "^1.1.0",
+    "react-native-firebase": "^5.4.2",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-image-crop-picker": "^0.24.1",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-modal": "^10.0.0",
+    "react-native-popup-menu": "^0.15.6",
+    "react-native-simple-toast": "0.0.8",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-unimodules": "^0.2.0",
+    "react-navigation": "^3.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
